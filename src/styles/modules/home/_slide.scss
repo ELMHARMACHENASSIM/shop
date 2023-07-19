@@ -1,0 +1,45 @@
+.slidediv {
+  height: 100%;
+  .carousel-item{
+     .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    .image {
+      width: 300px;
+      height: auto;
+      img{
+        width: 100%;
+        height: 100%;
+      }
+     
+    }
+    .info{
+        .addto{
+            padding: 5px 10px;
+            background: none;
+            border: 1px solid #000;
+            outline: none;
+        }
+      }
+  }
+
+}
+.spanbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    .iconslid{
+        font-size: 25px;
+    }
+}
+.showbtn{
+    background-color: rgba(0, 0, 0, 0.418);
+}
+.showbtn.active{
+    background-color: rgb(0, 0, 0);
+}
+  }
+ 
